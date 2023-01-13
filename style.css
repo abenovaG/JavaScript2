@@ -1,0 +1,14 @@
+.big_block {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    border: 1px solid black;
+}
+.sm_block {
+    position: absolute;
+    margin: 220px 195px;
+    width: 50px;
+    height: 50px;
+    background: black;
+}
