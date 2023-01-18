@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    position: relative;
+    width: 501px;
+    height: 501px;
+    border: 1px solid black;
+}
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #5a20b2;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.interval {
+    margin-right: 630px;
+    margin-top: 125px;
+}
+.start{
+    padding: 10px 35px;
+    margin-right: 70px;
+}
+.stop{
+    padding: 10px 35px;
+    margin-left: 70px;
+}
