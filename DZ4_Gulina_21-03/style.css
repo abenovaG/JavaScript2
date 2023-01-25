@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #a9a9a9;
+}
+h1 {
+    margin-left: 885px;
+    width: 120px;
+    height: 45px;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+.wrapper{
+    text-align: center;
+}
+.dataList {
+    display: flex;
+    /*align-items: start;*/
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    width: 550px;
+    height: 450px;
+    margin: 70px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-size: 21px;
+    border: 2px solid black ;
+}
+.btn {
+    border-radius: 15px;
+    margin-top: -13px;
+    margin-left: -407px;
+    height: 40px;
+    width: 150px;
+    font-size: 19px;
+}
