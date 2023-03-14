@@ -1,0 +1,105 @@
+@import './Theme/dark.css';
+@import './Theme/light.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 100%;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3 {
+    margin-top: 25px;
+}
+.button {
+    background-color: var(--card-background);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 70px ;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pokemonList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.pokemonCard {
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    color: var(--card-text);
+    background-color: var(--card-background);
+    border-radius: 8px;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.pokemonCard > img {
+    width: 150px;
+    height: 260px;
+}
+.pagination {
+    font-size: 18px;
+    width: 250px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttonPagination {
+    background-color: var(--card-background);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+}
+.btnPages {
+    background-color: var(--btn-bgc);
+    color: var(--btn-text);
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+}
+.wrapper_info {
+    display: flex;
+    justify-content: space-between;
+}
+.pokemonInfo_img {
+    margin-top: 60px;
+    width: 200px;
+}
+h4 {
+    margin-bottom: 10px;
+}
+.ability {
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: 18px;
+    /*color: #61229b;*/
+}
+.attack {
+    margin-top: 30px;
+}
+.info_info {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 60px;
+}

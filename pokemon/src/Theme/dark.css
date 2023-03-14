@@ -1,0 +1,8 @@
+.App.dark {
+    --background-color: black;
+    --text-color: white ;
+    --card-background: red;
+    --card-text: white;
+    --btn-text: black;
+    --btn-bgc: white;
+}
